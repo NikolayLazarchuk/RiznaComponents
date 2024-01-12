@@ -1,7 +1,9 @@
+import { FirstComponent } from './components/FirstComponent'
+
 function App() {
   return (
     <div>
-      <h1>{'Hello world!'}</h1>
+      <FirstComponent />
     </div>
   )
 }
