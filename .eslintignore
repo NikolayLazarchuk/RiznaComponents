@@ -1,0 +1,14 @@
+README.md
+
+android
+ios
+
+.*ignore
+
+__tests__
+
+Gemfile
+
+*.html
+
+pnpm-lock.yaml
