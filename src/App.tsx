@@ -1,3 +1,4 @@
+import { BreackLine } from './components/BreackLine'
 import { FirstComponent } from './components/FirstComponent'
 import { SecondComponent } from './components/SecondComponent'
 
@@ -6,6 +7,7 @@ function App() {
     <div>
       <FirstComponent />
       <SecondComponent />
+      <BreackLine />
     </div>
   )
 }
