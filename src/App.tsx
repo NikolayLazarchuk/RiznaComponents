@@ -1,15 +1,23 @@
+import styled from 'styled-components'
 import { BreackLine } from './components/BreackLine'
 import { FirstComponent } from './components/FirstComponent'
-import { SecondComponent } from './components/SecondComponent'
+import { HeaderLink } from './components/HeaderLink'
 
 function App() {
   return (
-    <div>
+    <Container>
       <FirstComponent />
-      <SecondComponent />
       <BreackLine />
-    </div>
+      <HeaderLink />
+      <BreackLine />
+    </Container>
   )
 }
+
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+`
 
 export default App

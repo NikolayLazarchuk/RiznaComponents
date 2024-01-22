@@ -8,7 +8,8 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,10 +21,17 @@
     "prettier": "prettier --write ."
   },
   "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -33,18 +41,18 @@
   "devDependencies": {
     "@react-native-community/eslint-config": "^3.2.0",
     "@react-native/eslint-config": "0.73.2",
-    "eslint": "^8.19.0",
-    "eslint-plugin-flowtype": "8.0.3",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-config-prettier": "^9.1.0",
-    "typescript": "5.3.3",
     "@types/jest": "29.5.11",
     "@types/node": "20.10.4",
     "@types/react": "18.2.42",
     "@types/react-dom": "18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.17.0",
     "@typescript-eslint/parser": "^6.17.0",
-    "prettier": "^3.1.1"
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-flowtype": "8.0.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.1.1",
+    "typescript": "5.3.3"
   }
 }

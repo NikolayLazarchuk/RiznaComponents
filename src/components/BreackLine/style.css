@@ -1,6 +1,7 @@
 .breack-line {
-  background-color: black;
+  background-color: gray;
   height: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
