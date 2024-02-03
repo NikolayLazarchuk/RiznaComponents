@@ -8,7 +8,11 @@ function App() {
     <Container>
       <FirstComponent />
       <BreackLine />
-      <HeaderLink />
+      <ContainerForDiv>
+        <HeaderLink />
+        <HeaderLink />
+        <HeaderLink />
+      </ContainerForDiv>
       <BreackLine />
     </Container>
   )
@@ -18,6 +22,10 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+`
+const ContainerForDiv = styled.div`
+  display: flex;
+  gap: 1vw;
 `
 
 export default App
