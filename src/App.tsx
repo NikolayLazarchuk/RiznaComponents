@@ -1,19 +1,19 @@
 import styled from 'styled-components'
-import { BreackLine } from './components/BreackLine'
 import { FirstComponent } from './components/FirstComponent'
 import { HeaderLink } from './components/HeaderLink'
+import { Separator } from './components/Separator'
 
 function App() {
   return (
     <Container>
       <FirstComponent />
-      <BreackLine />
+      <Separator />
       <ContainerForDiv>
         <HeaderLink />
         <HeaderLink />
         <HeaderLink />
       </ContainerForDiv>
-      <BreackLine />
+      <Separator />
     </Container>
   )
 }
