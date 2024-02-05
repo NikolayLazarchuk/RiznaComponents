@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { FirstComponent } from './components/FirstComponent'
 import { HeaderLink } from './components/HeaderLink'
+import { ProjectsCardLink } from './components/ProjectsCardLink'
 import { Separator } from './components/Separator'
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
         <HeaderLink />
         <HeaderLink />
       </ContainerForDiv>
+      <Separator />
+      <ProjectsCardLink />
       <Separator />
     </Container>
   )
