@@ -17,6 +17,7 @@ function App() {
       <Separator />
       <ProjectsCardLink />
       <Separator />
+      <LogoRizna />
     </Container>
   )
 }
