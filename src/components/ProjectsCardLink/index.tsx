@@ -9,22 +9,17 @@ export const ProjectsCardLink: FC = () => (
   </StyleDivPCL>
 )
 
-const StyleAPCL = styled.a`
-  text-decoration: none;
-  padding-top: 0.35vw;
-  padding-right: 1.53vw;
-  padding-bottom: 0.35vw;
-  padding-left: 1.53vw;
-`
 const StyleDivPCL = styled.div`
   display: flex;
-  /* padding-top: 0.35vw;
-  padding-right: 1.53vw;
-  padding-bottom: 0.35vw;
-  padding-left: 1.53vw; */
   border-radius: 6.9vw;
   background-color: #defd7e;
 `
+
+const StyleAPCL = styled.a`
+  text-decoration: none;
+  padding: 0.35vw 1.53vw
+`
+
 const StylePPCL = styled.p`
   font-family: Neuehaasdisplay;
   color: #27252b;

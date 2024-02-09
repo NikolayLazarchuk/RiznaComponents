@@ -3,6 +3,8 @@ import { FirstComponent } from './components/FirstComponent'
 import { HeaderLink } from './components/HeaderLink'
 import { ProjectsCardLink } from './components/ProjectsCardLink'
 import { Separator } from './components/Separator'
+import { Logo } from './components/Logo'
+
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
       <Separator />
       <ProjectsCardLink />
       <Separator />
-      <LogoRizna />
+      <Logo/>
+      <Separator/>
     </Container>
   )
 }

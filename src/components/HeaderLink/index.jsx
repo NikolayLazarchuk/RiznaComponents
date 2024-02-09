@@ -2,33 +2,33 @@ import { FC } from 'react'
 import styled from 'styled-components'
 
 export const HeaderLink: FC = () => (
-  <HeaderLinkContainer>
-    <a href={'https://example.com'} className={'header-link'}>
-      <div className={'header-link-text'}>{'Work'}</div>
-    </a>
-  </HeaderLinkContainer>
+  <StyleAHeaderLink href={'https://example.com'} className={'header-link'}>
+    <StyleDivHeaderLink>
+      <StylePHeaderLink className={'header-link-text'}>
+        {'Work'}
+      </StylePHeaderLink>
+    </StyleDivHeaderLink>
+  </StyleAHeaderLink>
 )
 
-const HeaderLinkContainer = styled.div`
-  .header-link-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Neuehaasdisplay;
-    color: black;
-    font-size: 1.25vw;
-    line-height: 1.25vw;
-    font-weight: 700;
-    text-align: center;
-  }
+const StyleAHeaderLink = styled.a`
+  text-decoration: none;
+`
+const StyleDivHeaderLink = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.15vw solid #000;
+  border-radius: 6.25vw;
+  padding: 0.5vw 1.7vw;
+`
 
-  .header-link {
-    border: 0.15vw solid #000;
-    border-radius: 6.25vw;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5vw 1.7vw;
-    text-decoration: none;
-    display: flex;
-  }
+const StylePHeaderLink = styled.p`
+  margin: 0;
+  font-family: Neuehaasdisplay;
+  color: black;
+  font-size: 1.25vw;
+  line-height: 1.25vw;
+  font-weight: 700;
+  text-align: center;
 `
