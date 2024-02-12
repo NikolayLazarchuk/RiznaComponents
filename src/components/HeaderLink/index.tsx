@@ -1,34 +1,32 @@
 import { FC } from 'react'
 import styled from 'styled-components'
 
-export const HeaderLink: FC = () => (
-  <StyleAHeaderLink href={'https://example.com'} className={'header-link'}>
-    <StyleDivHeaderLink>
-      <StylePHeaderLink className={'header-link-text'}>
-        {'Work'}
-      </StylePHeaderLink>
-    </StyleDivHeaderLink>
+interface HeaderLinkProps {
+  text: string
+}
+
+export const HeaderLink: FC<HeaderLinkProps> = ({ text }) => (
+  <StyleAHeaderLink href={'https://example.com'}>
+      <StylePHeaderLink>{text}</StylePHeaderLink>
   </StyleAHeaderLink>
 )
 
 const StyleAHeaderLink = styled.a`
   text-decoration: none;
-`
-const StyleDivHeaderLink = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   border: 0.15vw solid #000;
   border-radius: 6.25vw;
-  padding: 0.5vw 1.7vw;
 `
 
+
 const StylePHeaderLink = styled.p`
-  margin: 0;
-  font-family: Neuehaasdisplay;
+  font-family: DM Sans;
   color: black;
-  font-size: 1.25vw;
-  line-height: 1.25vw;
+  font-size: 1.1vw;
+  line-height: 1.1vw;
   font-weight: 700;
   text-align: center;
+  margin: 1.1vw 1.67vw;
 `
