@@ -4,6 +4,7 @@ import { HeaderLink } from './components/HeaderLink'
 import { Logo } from './components/Logo'
 import { ProjectsCardLink } from './components/ProjectsCardLink'
 import { Separator } from './components/Separator'
+import { SocialLink } from './components/SocialLink'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <ProjectsCardLink />
       <Separator />
       <Logo />
+      <Separator />
+      <SocialLink />
       <Separator />
     </Container>
   )
