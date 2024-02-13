@@ -1,10 +1,15 @@
 import { FC } from 'react'
 import styled from 'styled-components'
-import { images } from '../../images'
 
-export const SocialLink: FC = () => (
-  <StyleASocialLink>
-    <StyleImageSocialLink src={images.twitterSocial} alt={'social image'} />
+interface SocialLinkProps {
+  href:string;
+  alt:string;
+  imageSrc:string;
+}
+
+export const SocialLink: FC<SocialLinkProps> = ({href, alt, imageSrc}) => (
+  <StyleASocialLink href={href} >
+    <StyleImageSocialLink src={imageSrc} alt={alt} />
   </StyleASocialLink>
 )
 

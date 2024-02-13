@@ -5,6 +5,7 @@ import { Logo } from './components/Logo'
 import { ProjectsCardLink } from './components/ProjectsCardLink'
 import { Separator } from './components/Separator'
 import { SocialLink } from './components/SocialLink'
+import { images } from './images'
 
 function App() {
   return (
@@ -21,7 +22,11 @@ function App() {
       <Separator />
       <Logo />
       <Separator />
-      <SocialLink />
+      <SocialLink href={'https://example.com'} alt={'Twitter'} imageSrc={images.twitterSocial} />
+      <SocialLink href={'https://example.com'} alt={'Facebook'} imageSrc={images.facebookSocial}/>
+      <SocialLink href={'https://example.com'} alt={'You Tube'} imageSrc={images.youTubeSocial}/>
+      <SocialLink href={'https://example.com'} alt={'Pinterest'} imageSrc={images.pinterestSocial}/>
+      <SocialLink href={'https://example.com'} alt={'Instagram'} imageSrc={images.instagramSocial}/>
       <Separator />
     </Container>
   )
