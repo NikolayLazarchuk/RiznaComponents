@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import { HeaderLink } from './components/HeaderLink'
 import { Logo } from './components/Logo'
 import { ProjectsCardLink } from './components/ProjectsCardLink'
 import { Separator } from './components/Separator'
 import { ContainerSocialLinks } from './components/ContainerSocialLinks'
+import { ContainerHeaderLinks } from './components/ContainerHeaderLinks'
 
 
 function App() {
@@ -14,11 +14,7 @@ function App() {
       <Separator />
       <ProjectsCardLink />
       <Separator />
-      <ContainerForDiv>
-        <HeaderLink text={'Work'} />
-        <HeaderLink text={'Team'} />
-        <HeaderLink text={'Contact Us'} />
-      </ContainerForDiv>
+      <ContainerHeaderLinks />
       <Separator />
       <ContainerSocialLinks />
       <Separator />
@@ -31,9 +27,6 @@ const Container = styled.div`
   flex-direction: column;
   align-items: flex-start;
 `
-const ContainerForDiv = styled.div`
-  display: flex;
-  gap: 1vw;
-`
+
 
 export default App
