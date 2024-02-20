@@ -3,7 +3,7 @@ import { HeaderLink } from './components/HeaderLink'
 import { Logo } from './components/Logo'
 import { ProjectsCardLink } from './components/ProjectsCardLink'
 import { Separator } from './components/Separator'
-import { ContainerHeaderLinks } from './components/ContainerHeaderLinks'
+import { ContainerSocialLinks } from './components/ContainerHeaderLinks'
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <HeaderLink text={'Contact Us'} />
       </ContainerForDiv>
       <Separator />
-      <ContainerHeaderLinks />
+      <ContainerSocialLinks />
       <Separator />
     </Container>
   )
