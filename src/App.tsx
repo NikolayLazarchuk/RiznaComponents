@@ -3,7 +3,7 @@ import { HeaderLink } from './components/HeaderLink'
 import { Logo } from './components/Logo'
 import { ProjectsCardLink } from './components/ProjectsCardLink'
 import { Separator } from './components/Separator'
-import { ContainerSocialLinks } from './components/ContainerHeaderLinks'
+import { ContainerSocialLinks } from './components/ContainerSocialLinks'
 
 
 function App() {
