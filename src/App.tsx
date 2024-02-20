@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { FirstComponent } from './components/FirstComponent'
 import { HeaderLink } from './components/HeaderLink'
 import { Logo } from './components/Logo'
 import { ProjectsCardLink } from './components/ProjectsCardLink'
@@ -10,17 +9,16 @@ import { ContainerHeaderLinks } from './components/ContainerHeaderLinks'
 function App() {
   return (
     <Container>
-      <FirstComponent />
+      <Separator />
+      <Logo />
+      <Separator />
+      <ProjectsCardLink />
       <Separator />
       <ContainerForDiv>
         <HeaderLink text={'Work'} />
         <HeaderLink text={'Team'} />
         <HeaderLink text={'Contact Us'} />
       </ContainerForDiv>
-      <Separator />
-      <ProjectsCardLink />
-      <Separator />
-      <Logo />
       <Separator />
       <ContainerHeaderLinks />
       <Separator />
