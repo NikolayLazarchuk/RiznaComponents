@@ -4,6 +4,7 @@ import { ProjectsCardLink } from './components/ProjectsCardLink'
 import { Separator } from './components/Separator'
 import { ContainerSocialLinks } from './components/ContainerSocialLinks'
 import { ContainerHeaderLinks } from './components/ContainerHeaderLinks'
+import { PropsLevelTwo } from './components/PropsLevelTwo'
 
 
 function App() {
@@ -17,6 +18,10 @@ function App() {
       <ContainerHeaderLinks />
       <Separator />
       <ContainerSocialLinks />
+      <Separator />
+      <PropsLevelTwo justParagraph={'Hello world!'}/>
+      <Separator />
+      <PDSLevelThree />
       <Separator />
     </Container>
   )
