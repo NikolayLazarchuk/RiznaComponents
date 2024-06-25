@@ -5,6 +5,7 @@ import { Separator } from './components/Separator'
 import { ContainerSocialLinks } from './components/ContainerSocialLinks'
 import { ContainerHeaderLinks } from './components/ContainerHeaderLinks'
 import { PropsLevelTwo } from './components/PropsLevelTwo'
+import { PDSLevelThree } from './components/PDSLevelThree'
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       <Separator />
       <PropsLevelTwo justParagraph={'Hello world!'}/>
       <Separator />
-      <PDSLevelThree />
+      <PDSLevelThree content={'This is content from: paragraph - div - section.'}/>
       <Separator />
     </Container>
   )
